@@ -1,0 +1,28 @@
+{
+	"variants": [
+		{
+			"name": "Run Code",
+			"shell_cmd": "cd .. && python3 Main.py Run_Code"
+		},
+
+		{
+			"name": "Parse test (Codeforces)",
+			"shell_cmd": "cd .. && python3 Main.py Parse_Test"
+		},
+
+		{
+			"name": "Debug Mode(C++)",
+			"shell_cmd": "g++ \"$file_name\" -o source && ./source < ../files/Input.txt"
+		},
+
+		{
+			"name": "Debug Mode(Java)",
+			"shell_cmd": "javac -nowarn \"$file_name\" && java \"$file_base_name\" < ../files/Input.txt"
+		},
+
+		{
+			"name": "Random Tests",
+			"shell_cmd": "cd ../filegen && g++ RandomTest.cpp -o randomtest && ./randomtest && cd ../codes && ./source < ../files/Input.txt"
+		}
+	]
+}

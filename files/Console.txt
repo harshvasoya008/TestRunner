@@ -1,0 +1,14 @@
+Status: Problem "C"
+-----------------------------
+Test 1: Passed.
+
+Test 2: Passed.
+
+Test 3: Passed.
+
+Test 4: Passed.
+
+Test 5: Passed.
+
+-----------------------------
+Pretest passed.

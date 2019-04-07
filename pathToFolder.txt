@@ -1,0 +1,4 @@
+Codechef = /Users/harshvasoya/programming/CodeChef/
+Codeforces = /Users/harshvasoya/programming/Codeforces/
+Hackerearth = /Users/harshvasoya/programming/HackerEarth/
+Hackerrank = /Users/harshvasoya/programming/HackerRank/

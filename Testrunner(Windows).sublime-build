@@ -1,0 +1,23 @@
+{
+	"variants": [
+		{
+			"name": "Run Code",
+			"shell_cmd": "cd .. && python3 Main.py Run_Code"
+		},
+
+		{
+			"name": "Parse test (Codeforces)",
+			"shell_cmd": "cd .. && python3 Main.py Parse_Test"
+		},
+
+		{
+			"name": "Debug Mode",
+			"shell_cmd": "g++ -std=c++11 \"$file_name\" -o source.exe && source < ../files/Input.txt"
+		},
+
+		{
+			"name": "Random Tests",
+			"shell_cmd": "cd ../filegen && g++ -std=c++11 RandomTest.cpp -o randomtest.exe && randomtest && cd ../codes && source < ../files/Input.txt"
+		}
+	]
+}
