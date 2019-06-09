@@ -3,6 +3,7 @@ import urllib.request
 import sys
 import CompileAndRun
 import FileTransfer
+import FileCompare
 
 
 contest_url = 'http://codeforces.com/contest/'
@@ -77,3 +78,6 @@ if __name__ == '__main__':
         else:
             fc.write('Wrong Answer')
         fc.close()
+
+    if sys.argv[1] == 'File_Compare':
+        FileCompare.compareFiles()

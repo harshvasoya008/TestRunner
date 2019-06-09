@@ -22,7 +22,17 @@
 
 		{
 			"name": "Random Tests",
-			"shell_cmd": "cd ../filegen && g++ RandomTest.cpp -o randomtest && ./randomtest && cd ../codes && ./source < ../files/Input.txt"
+			"shell_cmd": "cd ../filegen && g++ RandomTest.cpp -o randomtest && ./randomtest && cd ../codes && ./source < ../files/RandomInput.txt"
+		},
+
+		{
+			"name": "Random Tests(Java)",
+			"shell_cmd": "cd ../filegen && g++ RandomTest.cpp -o randomtest && ./randomtest && cd ../codes && java \"$file_base_name\" < ../files/RandomInput.txt"
+		},
+
+		{
+			"name": "File Compare",
+			"shell_cmd": "cd .. && python3 Main.py File_Compare"
 		}
 	]
 }
