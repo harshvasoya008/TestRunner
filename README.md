@@ -1,7 +1,7 @@
 
 TestRunner is an application involving parsing and checking of the sample test cases of any programming contest. Project comprises of back-end Python programming and uses Sublime Text Editor as front-end UI. It allows you to run and debug your code in C++ and Java.
 
-![demo](https://github.com/harshvasoya008/TestRunner/blob/gh-pages/demo.gif)
+![demo](https://raw.githubusercontent.com/harshvasoya008/TestRunner/gh-pages/testrunner-demo.mov)
 
 ## Salient Features
 * No need to manually enter test-cases every time you make a change in the program
