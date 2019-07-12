@@ -9,7 +9,7 @@ TestRunner is an application involving parsing and checking of the sample test c
 * Well-designed layout and arrangement scheme for better experience
 * Works on UNIX, Windows and MacOS platforms
 
-![](./demo.gif)
+![](./demo_img.png)
 
 ## Build Options
 * * *
