@@ -9,6 +9,8 @@ TestRunner is an application involving parsing and checking of the sample test c
 * Well-designed layout and arrangement scheme for better experience
 * Works on UNIX, Windows and MacOS platforms
 
+![](https://github.com/harshvasoya008/TestRunner/blob/gh-pages/demo_img.png)
+
 ## Build Options
 * * *
 #### Parse Test
@@ -23,5 +25,5 @@ Bugs are everywhere and hence, one needs to debug. This build option takes input
 #### Random Test
 Generates the random test by running `filegen/RandomTest.cpp` file which can be seen in `Input.txt` and then, runs the code in Debug Mode. Note that, after you make any changes to your code, you should first run it on Debug mode and then run on RandomTest mode.
 
-
+You can check out demo of this tool [here](https://raw.githubusercontent.com/harshvasoya008/TestRunner/gh-pages/testrunner-demo.mov).
 
