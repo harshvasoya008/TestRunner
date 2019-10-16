@@ -27,3 +27,5 @@ Generates the random test by running `filegen/RandomTest.cpp` file which can be 
 
 You can check out **DEMO** of this tool [here](https://raw.githubusercontent.com/harshvasoya008/TestRunner/gh-pages/testrunner-demo.mov).
 
+Special thanks to my friend **Siddhraj** for providing this idea!
+
